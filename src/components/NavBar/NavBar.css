@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    justify-content: center;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.navbar__list-item {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
