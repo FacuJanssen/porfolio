@@ -5,6 +5,7 @@
     justify-content: center;
     height: 100vh;
     padding: 1rem;
+    z-index: 1;
 }
 
 .hero__title {
@@ -15,4 +16,3 @@
 .hero__subtitle {
     font-size: 2rem;
 }
-
