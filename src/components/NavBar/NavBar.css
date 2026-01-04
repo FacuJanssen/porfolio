@@ -9,7 +9,8 @@
     z-index: 1;
     border-radius: 1rem;
     border: solid 1px rgba(143, 137, 137, 0.4);
-    box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
+    /* box-shadow: 0 5px 40px -10px rgb(0, 0, 0); */
+    box-shadow: inset 0 5px 40px -10px rgba(143, 137, 137, 0.8);
 }
 
 .navbar__list {
@@ -33,8 +34,9 @@
 }
 
 .navbar__list-item:hover {
-    transition: all 350ms ease-in-out;
-    box-shadow: inset 0 0 13px 0 rgba(26, 26, 26, 0.775);
+    transition: all 500ms ease-in-out;
+    background-color: rgb(139, 133, 133);
+    box-shadow: inset 0 0 13px 0 rgba(41, 39, 39, 0.8);
 }
 
 .navbar__item-link {
