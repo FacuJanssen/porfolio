@@ -22,7 +22,6 @@
     width: 100%;
     gap: 1rem;
     padding: 1rem;
-    padding-block: 1rem;
     box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
     border: solid 1px oklch(19.625% 0.04554 281.368);
     background-color: oklch(10.633% 0.02858 280.39);
