@@ -1,23 +1,9 @@
 .content {
-    background-image: linear-gradient(
+    background: oklch(38.154% 0.08796 259.625) 70%;
+    /* background-image: linear-gradient(
         320deg,
         oklch(14.538% 0.05653 276.758) 0%,
         oklch(38.154% 0.08796 259.625) 70%,
         oklch(68.107% 0.06643 258.898) 100%
-    );
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    overflow-y: scroll;
-    gap: 9rem;
-}
-
-.content::-webkit-scrollbar {
-    width: 8px;
-    overflow: scroll;
-}
-
-.content::-webkit-scrollbar-thumb {
-    background: #0a0a0c;
-    border-radius: 16px;
+    ); */
 }
