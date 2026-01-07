@@ -5,16 +5,15 @@ import Footer from "./components/Footer/Footer";
 import Technologies from "./components/Technologies/Technologies";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Hero from "./components/Hero/Hero";
+import "./App.css";
 
 function App() {
     return (
-        <div className="content">
+        <>
             <NavBar />
-            <Hero />
-            <Technologies />
-            <AboutMe />
-            <Footer />
-        </div>
+            <Content />
+            {/* <Footer /> */}
+        </>
     );
 }
 

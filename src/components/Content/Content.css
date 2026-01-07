@@ -1,5 +1,13 @@
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: oklch(38.154% 0.08796 259.625) 70%;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
     /* background-image: linear-gradient(
         320deg,
         oklch(14.538% 0.05653 276.758) 0%,
