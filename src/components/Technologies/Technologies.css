@@ -4,13 +4,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
+    gap: 1rem;
 }
 
 .technologies-title {
     font-size: 4rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
 }
 
 .technologies-container {

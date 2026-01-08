@@ -3,9 +3,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 8rem;
-    height: 32rem;
+    height: 100vh;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 64rem;
+    height: 32rem;
     border-radius: 1rem;
     box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
     background-color: oklch(10.633% 0.02858 280.39);
