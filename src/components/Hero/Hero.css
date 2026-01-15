@@ -15,21 +15,22 @@
     height: 32rem;
     border-radius: 1rem;
     box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
-    background-color: oklch(10.633% 0.02858 280.39);
-    border: solid 1px oklch(19.625% 0.04554 281.368);
+    background-color: var(--bg);
+    /* background-image: url("../../../public/Sin título-1-Recuperado.jpg"); */
+    border: solid 1px var(--border);
 }
 
 .hero__title {
     font-size: 4rem;
     font-family: "Rubik", sans-serif;
-    color: aliceblue;
+    color: var(--text);
 }
 
 .hero__subtitle {
     font-size: 2rem;
-    color: aliceblue;
+    color: var(--text-muted);
 }
 
 .hero__description {
-    color: aliceblue;
+    color: var(--text-muted);
 }

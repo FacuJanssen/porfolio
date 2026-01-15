@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: oklch(38.154% 0.08796 259.625) 70%;
+    background: var(--bg-dark);
+    /* background-image: url("/Sin título-1-Recuperado.jpg"); */
+
     width: 100vw;
     position: absolute;
     top: 0;

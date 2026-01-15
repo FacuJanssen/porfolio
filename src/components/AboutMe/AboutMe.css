@@ -27,8 +27,8 @@
 }
 
 .about-me__socials {
-    color: white;
-    border: solid 1px white;
+    color: rgba(248, 218, 194);
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 .socials__git-hub {
-    border: solid 1px white;
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -59,14 +59,14 @@
 }
 
 .git-hub__content__commit {
-    border: solid 1px white;
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
 }
 
 .git-hub__content__languages {
-    border: solid 1px white;
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
@@ -79,14 +79,14 @@
 }
 
 .socials__mail {
-    border: solid 1px white;
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
 }
 
 .socials__linkedin {
-    border: solid 1px white;
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
@@ -94,8 +94,8 @@
 
 .about-me__bio {
     flex: 1;
-    color: white;
-    border: solid 1px white;
+    color: rgba(248, 218, 194);
+    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
     padding: 1rem;
 }

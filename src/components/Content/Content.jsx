@@ -10,9 +10,9 @@ const Content = () => {
     return (
         <div className="content">
             <Hero />
-            <Technologies />
+            {/* <Technologies />
             <AboutMe />
-            <Footer />
+            <Footer /> */}
         </div>
     );
 };

@@ -12,7 +12,7 @@
     z-index: 1;
     margin-top: 1rem;
     border-radius: 1rem;
-    border: solid 1px rgba(143, 137, 137, 0.4);
+    border: solid 1px rgba(30, 29, 29, 0.5);
     box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
     /* box-shadow: inset 0 5px 40px -10px rgba(143, 137, 137, 0.8); */
 }
@@ -46,5 +46,5 @@
 
 .navbar__item-link {
     text-decoration: none;
-    color: white;
+    color: var(--text);
 }
