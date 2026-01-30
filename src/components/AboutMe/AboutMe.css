@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    gap: 1rem;
+    background-color: var(--bg-light);
 }
 
 .about-me__title {
@@ -15,30 +15,21 @@
 .about-me__container {
     display: flex;
     flex-direction: row;
-    height: 32rem;
-    width: 64rem;
     gap: 1rem;
     padding: 1rem;
-    box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
-    border: solid 1px oklch(19.625% 0.04554 281.368);
-    height: 75%;
-    background-color: oklch(10.633% 0.02858 280.39);
-    border-radius: 1rem;
+    padding-top: 0;
 }
 
 .about-me__socials {
-    color: rgba(248, 218, 194);
-    border: solid 1px rgba(248, 218, 194);
     border-radius: 1rem;
+    width: 40rem;
     display: flex;
     flex-direction: column;
-    flex: 1;
     gap: 1rem;
-    padding: 1rem;
 }
 
 .socials__git-hub {
-    border: solid 1px rgba(248, 218, 194);
+    border: solid 1px var(--border);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -48,7 +39,7 @@
 }
 
 .git-hub__header {
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .git-hub__content {
@@ -59,14 +50,14 @@
 }
 
 .git-hub__content__commit {
-    border: solid 1px rgba(248, 218, 194);
+    border: solid 1px var(--border);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
 }
 
 .git-hub__content__languages {
-    border: solid 1px rgba(248, 218, 194);
+    border: solid 1px var(--border);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
@@ -79,14 +70,14 @@
 }
 
 .socials__mail {
-    border: solid 1px rgba(248, 218, 194);
+    border: solid 1px var(--border);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
 }
 
 .socials__linkedin {
-    border: solid 1px rgba(248, 218, 194);
+    border: solid 1px var(--border);
     border-radius: 1rem;
     flex: 1;
     padding: 1rem;
@@ -94,8 +85,9 @@
 
 .about-me__bio {
     flex: 1;
-    color: rgba(248, 218, 194);
-    border: solid 1px rgba(248, 218, 194);
+    color: var(--text);
+    border: solid 1px var(--border);
     border-radius: 1rem;
     padding: 1rem;
+    width: 40rem;
 }

@@ -1,35 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Capriola&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Capriola&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=IBM+Plex+Sans:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap");
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* font-family: "Rubik", sans-serif; */
-    font-family: "Fredoka", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
-/* :root {
-    --bg-dark: #0a192f;
-    --bg: #172a45;
-    --primary-color: #64ffda;
-    --primary-text: #ccd6f6;
-    --secondary-text: #8892b0;
-} */
-
 :root {
-    --bg-dark: oklch(0.1 0.075 256);
-    --bg: oklch(0.15 0.075 256);
-    --bg-light: oklch(0.2 0.075 256);
-    --text: oklch(0.96 0.1 256);
-    --text-muted: oklch(0.76 0.1 256);
-    --highlight: oklch(0.5 0.15 256);
-    --border: oklch(0.4 0.15 256);
-    --border-muted: oklch(0.3 0.15 256);
+    /* --bg-dark: oklch(21.135% 0.03914 282.533); */
+    --bg-dark: oklch(28.606% 0.00145 16.005);
+    --bg-light: oklch(98.929% 0.03126 103.115);
+    --text: oklch(7.638% 0.02505 278.689);
+    --text-muted: oklch(47.257% 0.01805 242.168);
+    --text-light: oklch(96.346% 0.00319 15.323);
+    --highlight: oklch(0.5 0 228);
+    --border: oklch(0.4 0 228);
+    --border-muted: oklch(0.3 0 228);
     --primary: oklch(0.76 0.15 256);
-    --secondary: oklch(0.76 0.15 76);
+    --secondary: oklch(59.414% 0.13241 266.54);
     --danger: oklch(0.7 0.15 30);
     --warning: oklch(0.7 0.15 100);
     --success: oklch(0.7 0.15 160);
-    --info: oklch(0.7 0.15 260);
 }

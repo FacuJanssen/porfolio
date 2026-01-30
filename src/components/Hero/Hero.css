@@ -1,36 +1,45 @@
 .hero {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     height: 100vh;
+    background: var(--bg-light);
 }
 
 .hero__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 64rem;
-    height: 32rem;
+    width: 55%;
     border-radius: 1rem;
-    box-shadow: 0 5px 40px -10px rgb(0, 0, 0);
-    background-color: var(--bg);
-    /* background-image: url("../../../public/Sin título-1-Recuperado.jpg"); */
-    border: solid 1px var(--border);
+    text-align: left;
 }
 
 .hero__title {
-    font-size: 4rem;
-    font-family: "Rubik", sans-serif;
+    font-size: 5.5rem;
     color: var(--text);
+    height: 6.5rem;
 }
 
 .hero__subtitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--text-muted);
+    display: flex;
+    align-items: center;
 }
 
 .hero__description {
     color: var(--text-muted);
+    font-size: 1rem;
 }
+
+.hero__img {
+    display: flex;
+    height: 70%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
